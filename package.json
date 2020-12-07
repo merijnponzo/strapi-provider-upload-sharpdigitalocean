@@ -1,7 +1,7 @@
 {
   "name": "strapi-provider-upload-sharpdigitalocean",
   "version": "3.1.8",
-  "description": "strapi @beta file upload to digital ocean spaces, with two resized images, resized by sharp",
+  "description": "upload and rezize the original image to digital ocean spaces, with one thumbnail variant, resized by sharp",
   "directories": {
     "lib": "./lib"
   },
@@ -13,7 +13,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/katendeglory/strapi-provider-upload-sharpdigitalocean"
+    "url": "https://github.com/merijnponzo/strapi-provider-upload-sharpdigitalocean"
   },
   "strapi": {
     "isProvider": true
