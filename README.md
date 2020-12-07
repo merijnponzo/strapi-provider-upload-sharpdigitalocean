@@ -1,5 +1,14 @@
 # strapi-provider-upload-sharpdigitalocean
 
+This plugin resizes and optimize your image to you custom wishes
+And it creates one image variant, a thumbnail, also available in your upload_file model
+by the property 'thumb'
+
+### In strapi settings, go to medialibrary:
+
+- turn Enable responsive friendly upload to OFF
+- turn Enable size optimization (without quality loss) to OFF
+
 add
 
 ```
